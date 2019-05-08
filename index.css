@@ -1,0 +1,78 @@
+body {
+    background-color: blue;
+    font-family: 'comic sans', sans-serif;
+}
+
+a, h1 {
+    all: unset;
+
+}
+#nav {
+    display: flex;
+    justify-content: space-between; 
+    background-color: BLUE;
+    padding: 15px;
+    border-radius: 3px;
+    align-items: baseline;
+    flex-flow: row nowrap; 
+    
+}
+h1{
+    color: white;
+    font: Arial;
+    font-size: 24pt;
+}
+#subscribe {
+    color: white;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    border: solid white 1px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+
+p {
+    width: 40vw;
+    font-weight: 100;
+    letter-spacing: 4px;
+    line-height: 115%;
+    color: white
+    
+}
+input{
+    width: 8vw;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: white;
+    font-size: 10pt;
+    color: rgb(24, 23, 22);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-left: 37vw
+    
+}
+
+h2{
+    font-size: 30pt;
+    color: white;
+}
